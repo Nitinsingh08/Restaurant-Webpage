@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Fav-icon -->
+    <link rel="icon" href="images/restaurant.png">
+    <!-- Javacript -->
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <!-- HOME-PAGE -->
+    <div id="HOME" class="home-page container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+            <a href="" class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link btn-outline" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#MENU">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SERVICE">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CONTACT">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="menu row justify-content-center ">
+            <div class="col col-lg-5 col-sm-12 align-self-center">
+                <h1>Feliciano</h1>
+                <H4>Delicious Specialties</H4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#RESERVATION" type="button" class="btn btn-outline btn-lg ">Reservation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT-SECTION -->
+    <div id="ABOUT" class="about-section container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col col-lg-5 col-sm-12 align-self-center">
+                <h2>About-us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <div class="col col-lg-3 col-sm-12 align-self-center">
+                <img class="about-img" src="images/pexels-julie-aagaard-2097090.jpg" alt="Recipe">
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU-SECTION -->
+    <div id="MENU" class="menu-section container-fluid">
+        <h2>Special Menu</h2>
+        <div class="container-fluid">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-sm-10">
+                                <div class="card-deck">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/food-g5d445dc31_1920.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-cats-coming-406152.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-daria-shevtsova-1095550.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center  align-items-center">
+                            <div class="col-lg-10 col-sm-10">
+                                <div class="card-deck">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-daria-shevtsova-704971.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-klaus-nielsen-6287525.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center  align-items-center">
+                            <div class="col-lg-10 col-sm-10">
+                                <div class="card-deck">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-lisa-1279330.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/pexels-lumn-1410236.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES-SECTION -->
+    <div id="SERVICE" class="service-section container-fluid">
+        <h2>Catering Services</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-12">
+                <img src="images/icons8-cake-64.png" alt="birthday cake">
+                <h4>Birthday Party</h4>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <img src="images/icons8-meeting-64.png" alt="People meeting">
+                <h4>Business Meeting</h4>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <img class="wedding" src="images/icons8-meeting-64.png" alt="wedding">
+                <h4>Wedding Party</h4>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+        </div>
+    </div>
+    <!-- RESERVATION -SECTION -->
+    <div id="RESERVATION" class="reservation container-fluid">
+        <div class="row rev-form justify-content-center align-items-center">
+            <div class="col col-lg-8 col-sm-8">
+                <h2>Make Reservation</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputEmail4">Name</label>
+                            <input type="email" class="form-control" id="inputName4" placeholder="Your Name...">
+                        </div>
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputPassword4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email..">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputNumber4">Phone</label>
+                            <input type="number" class="form-control" id="inputPhone4" placeholder="Your Number..">
+                        </div>
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputDate4">Date</label>
+
+                            <input type="date" class="form-control" id="inputDate4" placeholder="Date">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputEmail4">Person</label>
+                            <select class="custom-select">
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five+</option>
+                      </select>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-3">
+                            <label for="inputTime4">Time</label>
+                            <select class="custom-select">
+                        <option value="1">9:00am</option>
+                        <option value="2">12:00am</option>
+                        <option value="3">3:00pm</option>
+                        <option value="4">6:00pm</option>
+                        <option value="5">8:00pm</option>
+                        <option value="6">10:00pm</option>
+                      </select>
+                        </div>
+                    </div>
+                </form>
+                <div class="buton" style="text-align: center;">
+                    <button type="submit" class="clicker btn btn-outline" style="text-align: center;">Make a Reservation</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NEWSLETTER-SECTION -->
+    <div class=" news container-fluid">
+        <div class="newsletter">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <h4>Subsribe Newsletter</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex temporibus magni ipsam inventore dolorum sunt, amet vel.</p>
+                </div>
+            </div>
+        </div>
+        <form class="form-inline justify-content-center">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputEmail2" class="sr-only">Subscribe</label>
+                <input type="Email" class="form-control" id="inputemail2" placeholder="Your Email Address...">
+            </div>
+            <button type="submit" class="btn btn-outline btn-lg mb-2">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- CONTACT-US-SECTION -->
+    <div id="CONTACT" class="contact-section container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-3">
+                <h5>About Us</h5>
+                <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+                <i class="fab fa-linkedin fa-1x"></i>
+                <i class="fab fa-facebook-square fa-1x"></i>
+                <i class="fab fa-twitter-square fa-1x"></i>
+            </div>
+            <div class="col-lg-4">
+                <h5>Opening Hours</h5>
+                <h6>Sunday-Thursday</h6>
+                <p class="intro">5AM - 10PM</p>
+                <h5>Contact Info:</h5>
+                <p class="intro">Address: 34 Street Name, City Name Here, India</p>
+                <p class="intro">Phone:+1 242 4942 290</p>
+                <p class="intro">Email:info@yourdomain.com</p>
+            </div>
+            <div class="col-lg-2">
+                <h5>Quick Links</h5>
+                <li>
+                    <a class="intr" href="#HOME">Home</a>
+                </li>
+                <li>
+                    <a class="intr" href="#ABOUT">About</a>
+                </li>
+                <li>
+                    <a class="intr" href="#MENU">Menu</a>
+                </li>
+                <li>
+                    <a class="intr" href="#SERVICE">Service</a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+</html>

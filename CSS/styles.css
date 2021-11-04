@@ -1,0 +1,266 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 25px;
+}
+
+.navbar-brand {
+    visibility: hidden;
+}
+
+.navbar a {
+    color: gray;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar li :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+
+/* HOME-PAGE  */
+
+.home-page {
+    background-image: url(../images/chef-g4af12ed4c_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.btn {
+    border-radius: 0px !important;
+    color: white;
+    background-color: black;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.btn:hover {
+    color: black;
+    background-color: grey;
+}
+
+.menu {
+    text-align: center;
+    height: 500px;
+    color: whitesmoke;
+}
+
+.menu h1,
+h4,
+p,
+a {
+    padding-top: 12px;
+}
+
+.menu h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+.menu h4 {
+    font-family: "Maitree", serif;
+}
+
+.menu p,
+a {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* ABOUT-SECTION */
+
+.about-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-section h2 {
+    font-family: "Maitree", serif;
+}
+
+.about-section p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.about-img {
+    height: 65vh;
+}
+
+@media all and (max-width: 600px) {
+    .about-img {
+        height: 400px;
+        width: 300px;
+    }
+    .about-section {
+        text-align: center;
+    }
+}
+
+
+/* MENU-SECTION */
+
+.menu-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: khaki;
+}
+
+.menu-section h2 {
+    text-align: center;
+    font-family: "Maitree", serif;
+    padding-bottom: 50px;
+}
+
+.menu-section h5 {
+    font-family: "Quicksand", sans-serif;
+}
+
+.menu-section p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+@media all and (max-width: 600px) {
+    .menu-section .row {
+        padding-left: 45px;
+    }
+}
+
+
+/* SERVICE SECTION */
+
+.service-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-family: "Maitree", serif !important;
+}
+
+.service-section h2 {
+    font-family: "Maitree", serif;
+    padding: 50px 0;
+}
+
+.service-section p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* RESERVATION */
+
+
+/* .reservation {
+    background-image: url(../images/gallery/9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+} */
+
+.reservation .rev-form {
+    background-color: white;
+    background-attachment: fixed;
+}
+
+.form-group {
+    padding: 10px 20px;
+}
+
+.reservation h2 {
+    font-family: "Maitree", serif;
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+label {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 17px;
+}
+
+input:placeholder-shown {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+input,
+select {
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* NEWSLETTER-SECTION */
+
+.news {
+    padding: 50px 0px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.newsletter h4 {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.newsletter p {
+    font-family: "Nunito Sans", sans-serif !important;
+}
+
+
+/* CONTACT-SECTION */
+
+.contact-section {
+    background-color: #141313;
+    color: white;
+    padding: 40px 0px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.intro,
+.intr {
+    font-family: "Nunito Sans", sans-serif !important;
+    color: white !important;
+}
+
+li {
+    list-style: none;
+    padding: 7px 0px;
+    color: white;
+}
