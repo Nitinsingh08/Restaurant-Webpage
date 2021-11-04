@@ -140,7 +140,7 @@ a {
 
 @media all and (max-width: 600px) {
     .menu-section .row {
-        padding
+        padding-left:20px;
     }
 }
 
